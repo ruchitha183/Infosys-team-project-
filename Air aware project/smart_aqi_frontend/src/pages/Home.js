@@ -36,7 +36,7 @@ const Home = () => {
 
       {/* Subtitle */}
       <p className="text-lg md:text-xl text-center max-w-2xl mb-10 text-white/90">
-        Monitor real-time air quality across Hyderabad, predict future AQI
+        Monitor real-time air quality across India, predict future AQI
         levels, receive health recommendations, and share insights instantly.
       </p>
 
@@ -59,7 +59,7 @@ const Home = () => {
 
       {/* Footer */}
       <p className="absolute bottom-6 text-sm text-white/80">
-        © 2025 Smart AQI | Hyderabad
+        © 2025 Smart AQI | India
       </p>
     </div>
   );

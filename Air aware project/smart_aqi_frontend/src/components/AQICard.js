@@ -11,7 +11,7 @@ const AQICard = ({ data }) => {
   return (
     <div className={`${getAQIColor(data.aqi)} text-white p-6 rounded-xl shadow-lg`}>
       <h2 className="text-xl font-semibold mb-2">Current AQI</h2>
-      <p className="text-5xl font-bold">{data.aqi}</p>
+      <p className="text-5xl font-bold">{data.aqi?.toFixed(2)}</p>
       <p className="mt-2 text-sm">Location: {data.location}</p>
     </div>
   );
