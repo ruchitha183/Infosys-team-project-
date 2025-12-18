@@ -1,0 +1,63 @@
+##################################
+# GENERAL
+##################################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+.env
+.env.*
+.env.local
+
+##################################
+# PYTHON / FLASK (BACKEND)
+##################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+venv/
+env/
+ENV/
+.venv/
+pip-wheel-metadata/
+
+# Flask
+instance/
+.flaskenv
+
+# ML / Models
+models/*.pkl
+models/*.joblib
+
+*.pkl
+smart_aqi_backend/models/
+
+##################################
+# NODE / REACT (FRONTEND)
+##################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+build/
+dist/
+
+##################################
+# IDE / EDITOR
+##################################
+.vscode/
+.idea/
+*.iml
+
+##################################
+# OS FILES
+##################################
+Desktop.ini
